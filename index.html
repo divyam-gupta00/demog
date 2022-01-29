@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>Stress Buster</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<style>
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("WhatsApp Image 2022-01-24 at 11.23.36 AM.jpeg");
+    }
+
+    #maindiv {
+        background-color: whitesmoke;
+        height: 500px;
+        width: 600px;
+        border-style: double;
+        box-shadow: 10px 10px 5px rgba(0, 255, 76, 0.329);
+        color: white;
+    }
+    #logout
+{
+	font-size: 20px; float: left;
+}
+    .bb {
+        background-color: transparent;
+        border: transparent;
+    }
+    .hon{
+        color: black;
+    }
+</style>
+
+<body>zzz
+    <center>
+        <div id="maindiv" style=" margin-top: 50px;">
+            <h1 style="color: red; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><b>Login</b></h1>
+            <br>
+            <div class="login_div">
+                <h3 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><b>Wellcome!</b></h3>
+                <h5 style="text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;"><b>User Name:</b></h5>
+                <input placeholder="Your Name" id="ppp1"
+                    style="color: black; background-color: whitesmoke; width: 90%;">
+                <select id="mako" style="color: black;">
+                    <option value="no">Age</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="1">10</option>
+                    <option value="12">11</option>
+                    <option value="13">12</option>
+                    <option value="14">13</option>
+                    <option value="15">14</option>
+                    <option value="16">15</option>
+                    <option value="17">16</option>
+                    <option value="18">17</option>
+                    <option value="19">18</option>
+                    <option value="20">19</option>
+                    <option value="21">20</option>
+                    <option value="22">21</option>
+                    <option value="23">22</option>
+                    <option value="24">23</option>
+                    <option value="25">24</option>
+                    <option value="26">25</option>
+                    <option value="27">26</option>
+                    <option value="28">27</option>
+                    <option value="29">28</option>
+                    <option value="30">29</option>
+                    <option value="31">30</option>
+                    <option value="31+">30+</option>
+                </select>
+                <br>
+                <label style="float: left; color: black;" class="hon">Male</label>&#160;<input style="float: left;" type="radio" name="fav_language" value="male">&nbsp;&nbsp;
+                <label style="float: left; color: black;" class="hon">Female</label>&#160;<input style="float: left;" type="radio" name="fav_language" value="female">
+                <div>
+                    
+                <h6 id="cla" onclick="opend()" style="float: left; margin-left: 30px; color: black;">What is your stress
+                    Problem <button class="bb" onclick="opend()">⯆</button></h6>
+                <div id="ponp"></div>
+            </div>
+            <br> <button onclick="nextpg()" class="btn btn-primary" style="width: 425px; margin-left: 12px;"> Login
+            </button>
+
+            <label class="hon">Pls Give 1 Hour to this Website</label><br>
+            <label class="hon">OK</label>&#160;&#160;<input type="checkbox">
+            <br><br><br><br>
+        
+</div>
+    </center>
+    <script>
+        window.addEventListener("keydown", key_down)
+        function key_down(e){
+            keyPressed=e.keyCode;
+            if(keyPressed == "13"){
+                nextpg()
+            }
+        }
+    </script>
+</body>
+
+</html>
